@@ -6,6 +6,7 @@
             "use": "@now/node-server"
         }
     ],
+    "cleanUrls": true,
     "routes":[
         {
             "src":"/",
