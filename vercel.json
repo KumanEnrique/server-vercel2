@@ -22,6 +22,11 @@
             "src":"/users",
             "dest":"/index.js",
             "methods":["GET"]
+        },
+        {
+            "src":"/users/create",
+            "dest":"/index.js",
+            "methods":["POST"]
         }
     ]
 }

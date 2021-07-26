@@ -10,6 +10,7 @@ app.set('port',process.env.PORT || 3000)
 
 //middleware
 app.use(morgan('dev'))
+app.use(express.json())//para leer json
 app.use(express.urlencoded({extended:false}))//para recibir solo texto
 
 //routes

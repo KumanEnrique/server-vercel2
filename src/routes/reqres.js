@@ -17,5 +17,9 @@ router.get('/', (req, res) => {
         "avatar": "https://reqres.in/img/faces/2-image.jpg"
     }])
 })
+router.post('/create',(req,res)=>{
+    console.log(req.body)
+    res.send('dato recibido')
+})
 
 module.exports = router
